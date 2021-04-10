@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Simple Interest Calculator</title>
+</head>
+<body style="background-color: aqua;">
+    <h1><b>Simple Interest Calculator</b></h1>
+<p></p>
+<b>Principal</b>&nbsp&nbsp&nbsp<input type ='text' id='p' name ='principal' size='5' value='10000'><br>
+<b>Rate</b>&nbsp<input type ='text' id='r' name='rate' size='5' value='3.5'><br>
+<b>No. of years</b><input type='text' id='t' name='time' size='5' value='10' ><br>
 
+<input type='button' value='Calculate Interest' id='calculate'>
+<br>
+<p id='output'></p>
+<div id='container' style='min-width: 400px; height: 400px; margin: 0 auto'></div>
+
+<footer>
+    <p>&#169;<b>Anyone can get rich</b>
+</body>
+</html>
